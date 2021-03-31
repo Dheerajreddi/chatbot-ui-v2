@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../cards.css">
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <input type="checkbox" id="click">
+    <label for="click">
+        <i class="fab fa-facebook-messenger"></i>
+        <!-- <img src="https://cdn.yellowmessenger.com/6z2kqCtJ8pOr1611815647456.png" alt="logo"> -->
+        <i class="fas fa-times"></i>
+    </label>
+
+    <!-- bot - header - logo - title - description -->
+    <div class="wrapper">
+        <section class="header-Banner">
+            <div id="chatDetails">
+
+                <img class="icon" src="https://cdn.yellowmessenger.com/6z2kqCtJ8pOr1611815647456.png">
+
+                <div class="title">Amazon</div>
+                <div class="sub-title"> Work Hard. Have Fun. Make History.</div>
+        </section>
+
+        <!-- chat bot body - bot messages - user messages -->
+        <div id="chatBoxMainContainer" class="message-icons live-chat" style="height:calc(736px - 195px - 0px - 95px);">
+
+            <!-- bot message -->
+            <div id="chatBoxMain" class="row">
+                <div class="chat-message  from-them new first"><span class="from-icon"></span>
+                    <div class="">Hey! Welcome to Black Messenger. How can I help you today?</div>
+                </div>
+            </div>
+            <div class="timestamp-bot">Sun 07:44 PM</div>
+
+
+
+
+            <div id="chatOptions" class=""><button class="option">Login</button></div>
+
+
+
+
+            <div class="chat-message from-me message-came new first">
+                <div id="msg1615751223051">Login</div>
+            </div>
+
+
+            <!-- cards -->
+
+            <div class="carousel">
+
+                <div class="carousel__item carousel__item--visible">
+                    <img src="http://eatwelltraveleverywhere.com/wp-content/uploads/2017/10/At.mosphere.jpg" />
+                    <div class='title'>
+                        <h6>Banking</h6>
+                        <p>Banking is an industry that handles cash, credit, and other financial transactions. Banks
+                            provide a safe place to store extra cash and credit.</p>
+
+                    </div>
+                </div>
+                <div class="carousel__item">
+                    <img src="https://i.pinimg.com/originals/39/47/03/394703864ace3f7c7fe232077f7d12f7.jpg" />
+
+                    <div class='title'>
+                        <h6>Finance</h6>
+                        <p>Using the Hello World guide, you’ll start a branch, write comments, and open a pull
+                            request.</p>
+
+                    </div>
+
+                </div>
+                <div class="carousel__item">
+                    <img
+                        src="https://www.jtrholidays.com/static/img/bucket/Tours/Aerial-Tour/Burj-Khalifa/at-the-top-burj-khalifa.jpg" />
+
+                    <div class='title'>
+                        <h6>Education</h6>
+                        <p>Using the Hello World guide, you’ll start a branch, write comments, and open a pull
+                            request.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="carousel__actions">
+                    <button id="carousel__button--prev" aria-label="Previous slide">
+                        < </button>
+                            <button id="carousel__button--next" aria-label="Next slide">></button>
+                </div>
+            </div>
+            <script src="../cards.js"></script>
+
+            <!-- cards end  -->
+
+        </div>
+
+        <!-- user type area -->
+
+        <div class="send-input">
+            <div class="send-input-form">
+                <form action="#" class="typing-area">
+                    <input type="text" placeholder="Type a message here...">
+                    <button><i class="fab fa-telegram-plane"></i></button>
+                </form>
+            </div>
+
+        </div>
+        <div class='powerd-by'>
+            <p><span>Black</span> Messenger</p>
+            <button><i class="fas fa-home"></i></button>
+        </div>
+
+
+    </div>
+</body>
+
+
+
+<!-- <script>
+    let qucikReply = document.querySelector('.chat-message')
+    let button = document.querySelector('.option')
+
+
+
+
+
+    button.onclick = function () {
+        console.log('CLICKED')
+
+        document.getElementById('chatOptions').innerHTML = "hello dear"
+    }
+</script> -->
+
+</html>
